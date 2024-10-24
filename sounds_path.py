@@ -1,4 +1,4 @@
-aaaaa_path = 'sfx\\aaaaaaaaaaaaaaaaaaaaaaaa.mp3'
+fbi_path = 'sfx\\fbi-open-up-sfx.mp3'
 anime_ahh_path = 'sfx\\anime-ahh.mp3'
 anime_wow_path = 'sfx\\anime-wow-sound-effect.mp3'
 ara_ara_path = 'sfx\\ara-ara.mp3'

@@ -15,8 +15,8 @@ print('\nYour Soundboard is Ready to use.')
 
 
 
-def aaaaa():
-    mixer.music.load(aaaaa_path)
+def fbi():
+    mixer.music.load(fbi_path)
     mixer.music.play()
 def anime_ahh():
     mixer.music.load(anime_ahh_path)
@@ -77,7 +77,7 @@ def spiderman_meme():
     mixer.music.play()
 
 
-add_hotkey('1',aaaaa)
+add_hotkey('1',fbi)
 add_hotkey('2',anime_ahh)
 add_hotkey('3',anime_wow)
 add_hotkey('4',ara_ara)
