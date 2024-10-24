@@ -87,6 +87,14 @@ def what_the_dog_doin():
 def snore_mimimi():
     mixer.music.load(snore_mimimi_path)
     mixer.music.play()
+def meme_ending():
+    mixer.music.load(meme_ending_path)
+    mixer.music.play()
+def run_meme():
+    mixer.music.load(run_meme_path)
+    mixer.music.play()
+
+
 
 
 
@@ -114,6 +122,16 @@ add_hotkey('1+4',dog_laughing)
 add_hotkey('2+5',sad_violin)
 add_hotkey('3+6',what_the_dog_doin)
 add_hotkey('4+7',snore_mimimi)
+add_hotkey('5+8',meme_ending)
+add_hotkey('-',run_meme)
+
+
+
+
+
+
+
+
 
 
 
