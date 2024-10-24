@@ -1,7 +1,7 @@
 from keyboard import add_hotkey
 from keyboard import wait
 from pygame import mixer
-from sounds import *
+from sounds_path import *
 import webbrowser as wb
 import os
 
