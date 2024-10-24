@@ -75,6 +75,19 @@ def sorry_indian():
 def spiderman_meme():
     mixer.music.load(spiderman_meme_path)
     mixer.music.play()
+def dog_laughing():
+    mixer.music.load(dog_laughing_path)
+    mixer.music.play()
+def sad_violin():
+    mixer.music.load(sad_violin_path)
+    mixer.music.play()
+def what_the_dog_doin():
+    mixer.music.load(what_the_dog_doin_path)
+    mixer.music.play()
+def snore_mimimi():
+    mixer.music.load(snore_mimimi_path)
+    mixer.music.play()
+
 
 
 add_hotkey('1',fbi)
@@ -97,6 +110,10 @@ add_hotkey('*',im_sponge_bob)
 add_hotkey('/+*',limit_on_talking)
 add_hotkey('enter',sorry_indian)
 add_hotkey('.',spiderman_meme)
+add_hotkey('1+4',dog_laughing)
+add_hotkey('2+5',sad_violin)
+add_hotkey('3+6',what_the_dog_doin)
+add_hotkey('4+7',snore_mimimi)
 
 
 
