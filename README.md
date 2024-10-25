@@ -1,5 +1,7 @@
 # A simple soundBoard made using python
 Hi there, this is a cool little soundBoard that you can try using or recreating.
+
+### **Software Needed :** [VB-Audio](https://vb-audio.com/Cable/) 
 ### **NOTE**   
 ### **Don't move or delete any file or folder you may face errors !**
 ## Type `Help` at the same time for all the Hotkeys
@@ -11,4 +13,4 @@ Hi there, this is a cool little soundBoard that you can try using or recreating.
 This soundBoard is not ready yet it is just a test version.
 
 ### **Extra help**
-If you are facing any issues you can text me : http://lovelak.info
+If you are facing any issues you can text me : [Lovelak](http://lovelak.info)
