@@ -10,8 +10,10 @@ import os
 mixer.init()
 
 os.system('cls')
-print('\nHello There!')
-print('\nYour Soundboard is Ready to use.')
+os.system('title SoundBoard Made By Lovelak')
+
+print('\n\tHello There!')
+print('\n\tYour Soundboard is Ready to use.')
 
 
 
@@ -93,6 +95,17 @@ def meme_ending():
 def run_meme():
     mixer.music.load(run_meme_path)
     mixer.music.play()
+def gay_echo():
+    mixer.music.load(gay_echo_path)
+    mixer.music.play()
+def thankyou_anime():
+    mixer.music.load(thankyou_anime_path)
+    mixer.music.play()
+def thankyou_myfriend():
+    mixer.music.load(thankyou_myfriend_path)
+    mixer.music.play()
+
+
 
 
 
@@ -124,6 +137,10 @@ add_hotkey('3+6',what_the_dog_doin)
 add_hotkey('4+7',snore_mimimi)
 add_hotkey('5+8',meme_ending)
 add_hotkey('-',run_meme)
+add_hotkey('-+*',gay_echo)
+add_hotkey('0',thankyou_anime)
+add_hotkey('6+9',thankyou_myfriend)
+
 
 
 
