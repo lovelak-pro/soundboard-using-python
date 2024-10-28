@@ -9,7 +9,7 @@ Hi there, this is a cool little soundBoard that you can try using or recreating.
 ## Type `Help` at the same time for all the Hotkeys
 
 
-![image](https://cdn.discordapp.com/attachments/1202916368358441031/1299622381299695657/image.png?ex=671ddf29&is=671c8da9&hm=8f356308f58758a183f1e926d62c539f37ca7df3ecc677eca3b912dd72986ded&)
+![image](https://cdn.discordapp.com/attachments/1202916368358441031/1299622381299695657/image.png?ex=67208229&is=671f30a9&hm=fded44982f806d999cddb88db69840f94acbe12d1cbbc1782876786acc0d0e75&)
 
 ### **Important note:**
 This soundBoard is not ready yet it is just a test version.
