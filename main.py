@@ -1,7 +1,6 @@
 from keyboard import add_hotkey
 from keyboard import wait
 from pygame import mixer
-from sounds_path import *
 import webbrowser as wb
 import os
 
@@ -10,7 +9,7 @@ import os
 mixer.init()
 
 os.system('cls')
-os.system('title SoundBoard Made By Lovelak')
+os.system('title Soundboard Made By Lovelak')
 
 print('\n\tHello There!')
 print('\n\tYour Soundboard is Ready to use.')
