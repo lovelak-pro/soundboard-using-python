@@ -51,6 +51,7 @@ thankyou_myfriend_path = 'sfx\\thank_you_my_friend.mp3'
 def fbi():
     mixer.music.load(fbi_path)
     mixer.music.play()
+
 def anime_ahh():
     mixer.music.load(anime_ahh_path)
     mixer.music.play()
