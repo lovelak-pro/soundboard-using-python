@@ -3,16 +3,20 @@ from keyboard import wait
 from pygame import mixer
 import webbrowser as wb
 import os
-
-
+from colorama import Fore
+Green = Fore.GREEN
+cyan = Fore.CYAN
 
 mixer.init()
 
 os.system('cls')
 os.system('title Soundboard Made By Lovelak')
 
-print('\n\tHello There!')
-print('\n\tYour Soundboard is Ready to use.')
+print(f'''{Green}____ ____ _  _ _  _ ___  ___  ____ ____ ____ ___  
+[__  |  | |  | |\ | |  \ |__] |  | |__| |__/ |  \ {Green}.Credits Lovelak{Fore.RESET}
+___] |__| |__| | \| |__/ |__] |__| |  | |  \ |__/ .Version 0.3.0{Fore.RESET}
+\nPlease Press (h+e+l+p) all together for HELP Menu. Thank you!                                                                                 
+''')
 
 
 
