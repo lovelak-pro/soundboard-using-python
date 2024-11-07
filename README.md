@@ -6,6 +6,10 @@ Hi there, this is a cool little soundBoard that you can try using or recreating.
 ### ( Optional ) [AudioSwitcher](https://audioswit.ch/download/latest)
 ### **NOTE :**   
 ### **Don't move or delete any file or folder you may face errors !**
+
+## Overview 👇
+![image](https://media.discordapp.net/attachments/1202916368358441031/1304060541790064651/Screenshot_2024-11-07_172948.png?ex=672e0485&is=672cb305&hm=dee747e4f1af4eb19a4d5108d6f0ee94e840758371d509fea0a9d8f7dd2901d7&=&format=webp&quality=lossless)
+
 ## Type `Help` at the same time for all the Hotkeys
 
 
