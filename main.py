@@ -1,22 +1,12 @@
 from keyboard import add_hotkey
 from keyboard import wait
+from tkinter import *
 from pygame import mixer
 import webbrowser as wb
-import os
-from colorama import Fore
-Green = Fore.GREEN
-cyan = Fore.CYAN
 
+root = Tk()
+root.title('Soundboard using python')
 mixer.init()
-
-os.system('cls')
-os.system('title Soundboard Made By Lovelak')
-
-print(f'''{Green}____ ____ _  _ _  _ ___  ___  ____ ____ ____ ___  
-[__  |  | |  | |\ | |  \ |__] |  | |__| |__/ |  \ {Green}.Credits Lovelak{Fore.RESET}
-___] |__| |__| | \| |__/ |__] |__| |  | |  \ |__/ .Version 0.3.0{Fore.RESET}
-\nPlease Press (h+e+l+p) all together for HELP Menu. Thank you!                                                                                 
-''')
 
 
 
@@ -50,12 +40,12 @@ gay_echo_path = 'sfx\\gay-echo.mp3'
 thankyou_anime_path = 'sfx\\thankyou_anime.mp3'
 thankyou_myfriend_path = 'sfx\\thank_you_my_friend.mp3'
 
-
+def exit():
+    quit()
 
 def fbi():
     mixer.music.load(fbi_path)
     mixer.music.play()
-
 def anime_ahh():
     mixer.music.load(anime_ahh_path)
     mixer.music.play()
@@ -142,7 +132,78 @@ def thankyou_myfriend():
     mixer.music.play()
 
 
+btn1 = Button(root,text='1\nFBI Open UP',width=15,height=7,font=5,command=lambda:fbi())
+btn2 = Button(root,text='2\nAnime Ahh',width=15,height=7,font=5,command=lambda:anime_ahh())
+btn3 = Button(root,text='3\nAnime WOW',width=15,height=7,font=5,command=lambda:anime_wow())
+btn4 = Button(root,text='4\nAra Ara',width=15,height=7,font=5,command=lambda:ara_ara())
+btn5 = Button(root,text='5\nEmotional Damage',width=15,height=7,font=5,command=lambda:emotional_damage())
+btn6 = Button(root,text='6\nEw Brother Ew',width=15,height=7,font=5,command=lambda:ew_brother_ew())
+btn7 = Button(root,text='7\nYes OMG Remix',width=15,height=7,font=5,command=lambda:yes_omg_remix())
+btn8 = Button(root,text='8\nYes Mommy',width=15,height=7,font=5,command=lambda:yes_mommy())
+btn9 = Button(root,text='9\nYes Daddy',width=15,height=7,font=5,command=lambda:yes_daddy())
+btn10 = Button(root,text='0\nThank you Anime',width=15,height=7,font=5,command=lambda:thankyou_anime())
+btn11 = Button(root,text='1+2\nYes Yes No No KSI',width=15,height=7,font=5,command=lambda:yesyes_nono())
+btn12 = Button(root,text='2+3\nYamate Kudasai',width=15,height=7,font=5,command=lambda:yamate_kudasai())
+btn13 = Button(root,text='4+5\nWee Wee Wee',width=15,height=7,font=5,command=lambda:weeeee())
+btn14 = Button(root,text='5+6\nnoob_',width=15,height=7,font=5,command=lambda:noob_())
+btn15 = Button(root,text='7+8\nTa Ta Bye Bye',width=15,height=7,font=5,command=lambda:byebye())
+btn16 = Button(root,text='8+9\nThe Rizz Sound',width=15,height=7,font=5,command=lambda:the_rizz())
+btn17 = Button(root,text='1+4\nDog Laughing',width=15,height=7,font=5,command=lambda:dog_laughing())
+btn18 = Button(root,text='2+5\nSad Violin',width=15,height=7,font=5,command=lambda:sad_violin())
+btn19 = Button(root,text='3+6\nWhat The Dog Doin',width=15,height=7,font=5,command=lambda:what_the_dog_doin())
+btn20 = Button(root,text='4+7\nSnore Mimimi',width=15,height=7,font=5,command=lambda:snore_mimimi())
+btn21 = Button(root,text='5+8\nMeme Ending',width=15,height=7,font=5,command=lambda:meme_ending())
+btn22 = Button(root,text='6+9\nThank you my friend',width=15,height=7,font=5,command=lambda:thankyou_myfriend())
+btn23 = Button(root,text='/\nHub Intro',width=15,height=7,font=5,command=lambda:hub_into())
+btn24 = Button(root,text='*\nIm Sponge Bob',width=15,height=7,font=5,command=lambda:im_sponge_bob())
+btn25 = Button(root,text='/+*\nLimit On Talking',width=15,height=7,font=5,command=lambda:limit_on_talking())
+btn26 = Button(root,text='Enter\nSorry Indian',width=15,height=7,font=5,command=lambda:sorry_indian())
+btn27 = Button(root,text='.\nSpiderman Meme',width=15,height=7,font=5,command=lambda:spiderman_meme())
+btn28 = Button(root,text='-\nRun Meme',width=15,height=7,font=5,command=lambda:run_meme())
+btn29 = Button(root,text='-+*\nGay Echo',width=15,height=7,font=5,command=lambda:gay_echo())
 
+
+quitbtn = Button(root,text='Quit Soundboard',width=47,height=7,font=15,command=lambda:exit())
+
+
+
+
+
+btn1.grid(column=0,row=0)
+btn2.grid(column=1,row=0)
+btn3.grid(column=2,row=0)
+btn4.grid(column=3,row=0)
+btn5.grid(column=4,row=0)
+btn6.grid(column=5,row=0)
+btn7.grid(column=6,row=0)
+btn8.grid(column=7,row=0)
+
+btn9.grid(column=0,row=1)
+btn10.grid(column=1,row=1)
+btn11.grid(column=2,row=1)
+btn12.grid(column=3,row=1)
+btn13.grid(column=4,row=1)
+btn14.grid(column=5,row=1)
+btn15.grid(column=6,row=1)
+btn16.grid(column=7,row=1)
+
+btn17.grid(column=0,row=2)
+btn18.grid(column=1,row=2)
+btn19.grid(column=2,row=2)
+btn20.grid(column=3,row=2)
+btn21.grid(column=4,row=2)
+btn22.grid(column=5,row=2)
+btn23.grid(column=6,row=2)
+btn24.grid(column=7,row=2)
+
+btn25.grid(column=0,row=3)
+btn26.grid(column=1,row=3)
+btn27.grid(column=2,row=3)
+btn28.grid(column=3,row=3)
+btn29.grid(column=4,row=3)
+
+
+quitbtn.grid(column=5,row=3,columnspan=3)
 
 
 
@@ -180,10 +241,7 @@ add_hotkey('6+9',thankyou_myfriend)
 
 
 
-
-
-
-
+root.mainloop()
 
 
 
@@ -191,14 +249,6 @@ add_hotkey('6+9',thankyou_myfriend)
 def help_sound():
     wb.open('help.html')
 add_hotkey('h+e+l+p',help_sound)
-
-
-
-
-
-
-
-
 
 
 
