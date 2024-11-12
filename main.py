@@ -8,6 +8,9 @@ root = Tk()
 root.title('Soundboard using python')
 mixer.init()
 
+def disable_event():
+   pass
+root.protocol("WM_DELETE_WINDOW", disable_event)
 
 
 fbi_path = 'sfx\\fbi-open-up-sfx.mp3'
@@ -39,6 +42,7 @@ run_meme_path = 'sfx\\run-vine-sound-effect.mp3'
 gay_echo_path = 'sfx\\gay-echo.mp3'
 thankyou_anime_path = 'sfx\\thankyou_anime.mp3'
 thankyou_myfriend_path = 'sfx\\thank_you_my_friend.mp3'
+
 
 def exit():
     quit()
