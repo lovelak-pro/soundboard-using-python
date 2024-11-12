@@ -8,6 +8,7 @@ root = Tk()
 root.title('Soundboard using python')
 mixer.init()
 
+root.resizable(0,0)
 def disable_event():
    pass
 root.protocol("WM_DELETE_WINDOW", disable_event)
