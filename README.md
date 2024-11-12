@@ -8,7 +8,7 @@ Hi there, this is a cool little soundBoard that you can try using or recreating.
 ### **Don't move or delete any file or folder you may face errors !**
 
 ## Overview 👇
-![image](https://media.discordapp.net/attachments/1202916368358441031/1304060541790064651/Screenshot_2024-11-07_172948.png?ex=672e0485&is=672cb305&hm=dee747e4f1af4eb19a4d5108d6f0ee94e840758371d509fea0a9d8f7dd2901d7&=&format=webp&quality=lossless)
+![image](https://cdn.discordapp.com/attachments/1202916368358441031/1304334076605370398/Screenshot_2024-11-08_113725.png?ex=672f0345&is=672db1c5&hm=5b6ee7d8fdec3896a4eb37a2f4ee47aaf18f684bd67767b62225d91cd666d61c&)
 
 ## Type `Help` at the same time for all the Hotkeys
 
