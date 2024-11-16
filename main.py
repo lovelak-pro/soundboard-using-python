@@ -4,7 +4,7 @@ from tkinter import *
 from pygame import mixer
 
 root = Tk()
-root.title('Soundboard using python')
+root.title('Soundboard using python by Lovelak')
 mixer.init()
 
 root.resizable(0,0)
