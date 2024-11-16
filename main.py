@@ -244,17 +244,7 @@ add_hotkey('0',thankyou_anime)
 add_hotkey('6+9',thankyou_myfriend)
 
 
-
-
 root.mainloop()
-
-
-
-
-def help_sound():
-    wb.open('help.html')
-add_hotkey('h+e+l+p',help_sound)
-
 
 
 
