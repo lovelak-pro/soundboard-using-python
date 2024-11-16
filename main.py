@@ -2,7 +2,6 @@ from keyboard import add_hotkey
 from keyboard import wait
 from tkinter import *
 from pygame import mixer
-import webbrowser as wb
 
 root = Tk()
 root.title('Soundboard using python')
